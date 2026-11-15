@@ -13,9 +13,9 @@
 </head>
 <body class="bg-gray-50 text-gray-800">
 
-    <!-- הודעת מערכת / התראה -->
+    <!-- הודעת מערכת -->
     <div class="bg-amber-100 border-b border-amber-200 text-amber-800 px-4 py-3 text-center text-sm">
-        <span class="font-bold">הודעת מערכת:</span> גרסה פרטית ובדיקתית לתהליך ההזמנה, המיועדת להצגה וללא סליקה כספית או שיגור אוטומטי לנהג[span_2](start_span)[span_2](end_span).
+        <span class="font-bold">הודעת מערכת:</span> גרסה פרטית ובדיקתית לתהליך ההזמנה, המיועדת להצגה וללא סליקה כספית או שיגור אוטומטי לנהג.
     </div>
 
     <!-- כותרת ראשית -->
@@ -23,10 +23,10 @@
         <div class="max-w-7xl mx-auto px-4 py-6 flex flex-col md:flex-row justify-between items-center">
             <div>
                 <h1 class="text-3xl font-bold">🥩 קצביית ומעדניית "החווה"</h1>
-                <p class="text-red-200 mt-1">בשר טרי איכותי ומצרכים נלווים ישירות עד הבית[span_3](start_span)[span_3](end_span)</p>
+                <p class="text-red-200 mt-1">בשר טרי איכותי ומצרכים נלווים ישירות עד הבית</p>
             </div>
-            <div class="mt-4 md:mt-0 bg-red-800 px-4 py-2 rounded-lg text-sm">
-                <p>📍 אזורי שירות: פתח תקווה, קריית אונו, גני תקווה וגבעת שמואל | סניף צורן (בהקמה)[span_4](start_span)[span_4](end_span)</p>
+            <div class="mt-4 md:mt-0 bg-red-800 px-4 py-2 rounded-lg text-sm text-center">
+                <p>📍 אזורי שירות: פתח תקווה, קריית אונו, גני תקווה וגבעת שמואל<br>סניף צורן (בהקמה)</p>
             </div>
         </div>
     </header>
@@ -38,8 +38,8 @@
         <div class="lg:col-span-2">
             <h2 class="text-2xl font-bold mb-6 text-gray-900 border-b pb-2">הקטלוג שלנו</h2>
             
-            <div id="products-grid" class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <!-- המוצרים יטענו או יוצגו כאן -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- מוצר 1 -->
                 <div class="bg-white p-4 rounded-xl shadow-sm border border-gray-100 flex flex-col justify-between">
                     <div>
                         <span class="bg-red-100 text-red-800 text-xs px-2.5 py-0.5 rounded-full font-medium">בקר טרי</span>
@@ -48,10 +48,11 @@
                     </div>
                     <div class="mt-4 flex justify-between items-center">
                         <span class="font-bold text-lg text-red-900">₪149.00 <span class="text-xs text-gray-400">/ ק"ג</span></span>
-                        <button onclick="addToCart('נתח אנטריקוט טרי', 149)" class="bg-red-900 text-white px-4 py-2 rounded-lg text-sm hover:bg-red-800 transition">הוסף לסל</button>
+                        <button onclick="addToCart('נתח אנטריקוט טרי', 149)" class="bg-red-900 text-white px-4 py-2 rounded-lg text-sm hover:bg-red-800 transition cursor-pointer">הוסף לסל</button>
                     </div>
                 </div>
 
+                <!-- מוצר 2 -->
                 <div class="bg-white p-4 rounded-xl shadow-sm border border-gray-100 flex flex-col justify-between">
                     <div>
                         <span class="bg-red-100 text-red-800 text-xs px-2.5 py-0.5 rounded-full font-medium">בקר טרי</span>
@@ -60,10 +61,11 @@
                     </div>
                     <div class="mt-4 flex justify-between items-center">
                         <span class="font-bold text-lg text-red-900">₪129.00 <span class="text-xs text-gray-400">/ ק"ג</span></span>
-                        <button onclick="addToCart('פיקניה מובחרת', 129)" class="bg-red-900 text-white px-4 py-2 rounded-lg text-sm hover:bg-red-800 transition">הוסף לסל</button>
+                        <button onclick="addToCart('פיקניה מובחרת', 129)" class="bg-red-900 text-white px-4 py-2 rounded-lg text-sm hover:bg-red-800 transition cursor-pointer">הוסף לסל</button>
                     </div>
                 </div>
 
+                <!-- מוצר 3 -->
                 <div class="bg-white p-4 rounded-xl shadow-sm border border-gray-100 flex flex-col justify-between">
                     <div>
                         <span class="bg-red-100 text-red-800 text-xs px-2.5 py-0.5 rounded-full font-medium">בקר טרי</span>
@@ -72,10 +74,11 @@
                     </div>
                     <div class="mt-4 flex justify-between items-center">
                         <span class="font-bold text-lg text-red-900">₪89.00 <span class="text-xs text-gray-400">/ ק"ג</span></span>
-                        <button onclick="addToCart('אסאדו (שפונדרה)', 89)" class="bg-red-900 text-white px-4 py-2 rounded-lg text-sm hover:bg-red-800 transition">הוסף לסל</button>
+                        <button onclick="addToCart('אסאדו (שפונדרה)', 89)" class="bg-red-900 text-white px-4 py-2 rounded-lg text-sm hover:bg-red-800 transition cursor-pointer">הוסף לסל</button>
                     </div>
                 </div>
 
+                <!-- מוצר 4 -->
                 <div class="bg-white p-4 rounded-xl shadow-sm border border-gray-100 flex flex-col justify-between">
                     <div>
                         <span class="bg-amber-100 text-amber-800 text-xs px-2.5 py-0.5 rounded-full font-medium">עופות ועל האש</span>
@@ -84,17 +87,19 @@
                     </div>
                     <div class="mt-4 flex justify-between items-center">
                         <span class="font-bold text-lg text-red-900">₪59.00 <span class="text-xs text-gray-400">/ ק"ג</span></span>
-                        <button onclick="addToCart('קבב ביתי / המבורגר', 59)" class="bg-red-900 text-white px-4 py-2 rounded-lg text-sm hover:bg-red-800 transition">הוסף לסל</button>
+                        <button onclick="addToCart('קבב ביתי / המבורגר', 59)" class="bg-red-900 text-white px-4 py-2 rounded-lg text-sm hover:bg-red-800 transition cursor-pointer">הוסף לסל</button>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- סל קניות וזמני משלוח -->
+        <!-- סל קניות, פרטי מזמין ומשלוח -->
         <div class="space-y-6">
+            
+            <!-- סל קניות -->
             <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
                 <h2 class="text-xl font-bold mb-4 border-b pb-2">🛒 סל הקניות שלי</h2>
-                <div id="cart-items" class="space-y-3 mb-4 text-sm max-h-60 overflow-y-auto">
+                <div id="cart-items" class="space-y-3 mb-4 text-sm max-h-48 overflow-y-auto">
                     <p class="text-gray-500 text-center py-4">הסל שלך ריק כרגע</p>
                 </div>
                 <div class="border-t pt-4 flex justify-between font-bold text-lg">
@@ -103,83 +108,19 @@
                 </div>
             </div>
 
+            <!-- טופס פרטי מזמין והרשמה מהירה -->
             <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-                <h2 class="text-xl font-bold mb-4 border-b pb-2">🚚 בחירת זמני משלוח</h2>
-                <p class="text-xs text-gray-500 mb-3">ימים א'–ה' בשעות הערב, או ביום שישי בבוקר[span_5](start_span)[span_5](end_span).</p>
+                <h2 class="text-xl font-bold mb-4 border-b pb-2">📝 פרטי מזמין למשלוח</h2>
                 
-                <label class="block text-sm font-medium mb-1">בחר חלון זמנים:</label>
-                <select id="delivery-time" class="w-full border border-gray-300 rounded-lg p-2.5 text-sm mb-4">
-                    <option>א'-ה' - משלוח ערב (17:00 - 21:00)</option>
-                    <option>שישי - משלוח בוקר (08:00 - 13:00)</option>
-                </select>
-
-                <button onclick="checkout()" class="w-full bg-emerald-700 text-white py-3 rounded-lg font-bold hover:bg-emerald-600 transition">
-                    שליחת הזמנה (בדיקה)
-                </button>
-            </div>
-        </div>
-
-    </main>
-
-    <!-- פוטר -->
-    <footer class="bg-gray-800 text-white text-center py-6 mt-12 text-sm">
-        <p>קצביית ומעדניית "החווה" © 2026 | כל הזכויות שמורות (גרסת פיתוח)</p>
-    </footer>
-
-    <!-- סקריפט לניהול עגלת קניות בסיסית -->
-    <script>
-        let cart = [];
-
-        function addToCart(name, price) {
-            cart.push({ name, price });
-            updateCartUI();
-        }
-
-        function updateCartUI() {
-            const container = document.getElementById('cart-items');
-            const totalEl = document.getElementById('cart-total');
-            
-            if (cart.length === 0) {
-                container.innerHTML = '<p class="text-gray-500 text-center py-4">הסל שלך ריק כרגע</p>';
-                totalEl.innerText = '₪0.00';
-                return;
-            }
-
-            container.innerHTML = '';
-            let total = 0;
-
-            cart.forEach((item, index) => {
-                total += item.price;
-                const div = document.createElement('div');
-                div.className = 'flex justify-between items-center bg-gray-50 p-2 rounded';
-                div.innerHTML = `
-                    <span>${item.name}</span>
-                    <div class="flex items-center gap-2">
-                        <span class="font-bold">₪${item.price}</span>
-                        <button onclick="removeFromCart(${index})" class="text-red-500 text-xs hover:underline">הסרה</button>
+                <div class="space-y-3 text-sm">
+                    <div>
+                        <label class="block font-medium mb-1">שם מלא:</label>
+                        <input type="text" id="cust-name" placeholder="ישראל ישראלי" class="w-full border border-gray-300 rounded-lg p-2.5">
                     </div>
-                `;
-                container.appendChild(div);
-            });
-
-            totalEl.innerText = `₪${total.toFixed(2)}`;
-        }
-
-        function removeFromCart(index) {
-            cart.splice(index, 1);
-            updateCartUI();
-        }
-
-        function checkout() {
-            if (cart.length === 0) {
-                alert('הסל ריק, אנא הוסף מוצרים לפני ביצוע ההזמנה.');
-                return;
-            }
-            const time = document.getElementById('delivery-time').value;
-            alert(`ההזמנה נקלטה בהצלחה במצב הבדיקה!\nזמן משלוח נבחר: ${time}\n(שים לב: מדובר בגרסת בדיקה ללא סליקה אשראי או שיגור אוטומטי)[span_6](start_span)[span_6](end_span)`);
-            cart = [];
-            updateCartUI();
-        }
-    </script>
-</body>
-</html>
+                    <div>
+                        <label class="block font-medium mb-1">טלפון נייד:</label>
+                        <input type="tel" id="cust-phone" placeholder="050-0000000" class="w-full border border-gray-300 rounded-lg p-2.5">
+                    </div>
+                    <div>
+                        <label class="block font-medium mb-1">יישוב (אזור שירות):</label>
+                        <select id="cust-city" class="w-full
